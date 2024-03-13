@@ -131,7 +131,7 @@ if __name__ == '__main__':
     # Пошук конкретного телефону у записі John
     found_phone = john.find_phone("5555555555")
     print(f"{john.name}: {found_phone}")  # Виведення: 5555555555
-
+    print (book)
     # Видалення запису Jane
     book.delete("Jane")
     
